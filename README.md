@@ -1,68 +1,114 @@
 :small_blue_diamond: 🇵🇹
-### Eleições 2022 - Despesas dos candidatos para o cargo de governador<br>
+# :small_blue_diamond: **Eleições 2022 - Despesas dos Candidatos para Governador**
 
-#### Objetivo do projeto
+Este projeto tem como objetivo realizar uma análise descritiva das despesas realizadas pelos candidatos ao cargo de governador nas eleições de 2022.
 
-Esse projeto tem como objetivo a análise descritiva das despesas realizadas pelos candidatos ao cargo de governador nas eleições de 2022.<br><br>
+---
 
-#### Fonte de dados
+## 📋 **Objetivo do Projeto**
 
-Como fonte de dados, foram utilizados tabelas tratadas pela organização [Base dos Dados](https://basedosdados.org/), que são disponibilizadas pelo Tribunal Superior Eleitoral (TSE).
+- Analisar descritivamente as despesas dos candidatos ao cargo de governador nas eleições de 2022.
 
-:file_folder: Link para acesso a base de dados [aqui](https://basedosdados.org/dataset/br-tse-eleicoes?bdm_table=despesas_candidato)
+---
 
-:computer: Para acesso aos dados necessários, foram realizadas consultas <strong>SQL</strong> através da ferramenta <strong>Google BigQuery</strong>.
-<br>
-<br>
+## 📊 **Fonte de Dados**
 
-#### Dashboard
-A ferramenta <strong>Microsoft PowerBI</strong> foi utilizada para limpeza e tratamento dos dados, criação de relacionamentos entre tabelas e construção do dashboard.
-O dashboard busca responder os seguintes itens:
-<ul>
-  <li> Total de despesas realizadas pelos candidatos ao cargo de governador</li>
-  <li> Os cinco partidos com os maiores valores de despesas</li>
-  <li> As cinco origens de despesas com os maiores valores</li>
-  <li> Os candidatos com os maiores valores de despesas</li>
-</ul>
-Além disso, é possível filtrar as informações específicas de cada Turno, Estado e Partido.<br><br>
+Os dados utilizados foram tratados pela organização **[Base dos Dados](https://basedosdados.org/)** e disponibilizados pelo **Tribunal Superior Eleitoral (TSE)**.
 
-:bar_chart: Link para acesso ao dashboard [aqui](https://app.powerbi.com/view?r=eyJrIjoiZjk0NjBiNTQtOTA4NS00OTM0LTllZDktYTQyMGQxNGRhMTBjIiwidCI6IjA3M2ZmOGM0LWExZDEtNDNiYi1iODNmLWQyNTQ0YmMzODZiMCIsImMiOjh9)<br><br>
+📁 **Link para acesso à base de dados**: [Clique aqui](https://basedosdados.org/dataset/br-tse-eleicoes?bdm_table=despesas_candidato)
 
-Abaixo é possível visualizar uma prévia do dashboard. <br><br>
+💻 **Consultas SQL realizadas através da ferramenta Google BigQuery.**
 
-![foto](/dashboard.JPG)
-</br></br></br></br>
+---
 
-:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-### Elections 2022 - Expenses of candidates for the position of governor<br>
+## 📊 **Dashboard**
 
-#### Project's goal
+A ferramenta **Microsoft Power BI** foi utilizada para:
 
-This project aims to descriptively analyze the expenses incurred by candidates for the position of governor in the 2022 elections.<br><br>
+- **Limpar e tratar os dados.**
+- **Criar relacionamentos entre tabelas.**
+- **Construir o dashboard interativo.**
 
-#### Data source
+### 📌 **O Dashboard Responde:**
 
-As a data source, tables treated by the organization [Base dos dados](https://basedosdados.org/) were used, which are made available by the Tribunal Superior Eleitoral (TSE).
+- Total de despesas realizadas pelos candidatos ao cargo de governador.
+- Os cinco partidos com os maiores valores de despesas.
+- As cinco origens de despesas com os maiores valores.
+- Os candidatos com os maiores valores de despesas.
 
-:file_folder: Link to access the database [here](https://basedosdados.org/dataset/br-tse-eleicoes?bdm_table=despesas_candidato)
+Além disso, é possível filtrar informações específicas por **Turno**, **Estado** e **Partido**.
 
-:computer: To access the necessary data, <strong>SQL</strong> queries were performed using the <strong>Google BigQuery</strong> tool.
-<br>
-<br>
+---
 
-#### Dashboard
-The <strong>Microsoft PowerBI</strong> tool was used to clean and process the data, create relationships between tables and build the dashboard.
-The dashboard seeks to answer the following items:
-<ul>
-   <li> Total expenses incurred by candidates for the position of governor</li>
-   <li>The five parties with the highest expenditure figures</li>
-   <li>The five sources of expenses with the highest values</li>
-   <li> Candidates with the highest expense values</li>
-</ul>
-Furthermore, it is possible to filter specific information for each Shift, State and Party.<br><br>
+### 📊 **Link para o Dashboard**
 
-:bar_chart: Link to access the dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiZjk0NjBiNTQtOTA4NS00OTM0LTllZDktYTQyMGQxNGRhMTBjIiwidCI6IjA3M2ZmOGM0LWExZDEtNDNiYi1iODNmLWQyNTQ0YmMzODZiMCIsImMiOjh9)<br><br>
+:bar_chart: Acesse o dashboard interativo clicando no link abaixo:
 
-Below you can see a preview of the dashboard. <br><br>
+[**Acesse o Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiZjk0NjBiNTQtOTA4NS00OTM0LTllZDktYTQyMGQxNGRhMTBjIiwidCI6IjA3M2ZmOGM0LWExZDEtNDNiYi1iODNmLWQyNTQ0YmMzODZiMCIsImMiOjh9)
 
-![photo](/dashboard.JPG)
+---
+
+## 🖼️ **Prévia do Dashboard**
+
+<p align="center">
+  <img src="dashboard.JPG" alt="Prévia do Dashboard" width="70%">
+</p>
+
+---
+
+🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹 🔹
+
+# :small_blue_diamond: **Elections 2022 - Expenses of Candidates for Governor**
+
+This project aims to descriptively analyze the expenses incurred by candidates for the position of governor in the 2022 elections.
+
+---
+
+## 📋 **Project Objective**
+
+- Descriptively analyze the expenses of candidates for the position of governor in the 2022 elections.
+
+---
+
+## 📊 **Data Source**
+
+The data used was processed by the organization **[Base dos Dados](https://basedosdados.org/)** and provided by the **Tribunal Superior Eleitoral (TSE)**.
+
+📁 **Link to access the database**: [Click here](https://basedosdados.org/dataset/br-tse-eleicoes?bdm_table=despesas_candidato)
+
+💻 **SQL queries were performed using the Google BigQuery tool.**
+
+---
+
+## 📊 **Dashboard**
+
+The **Microsoft Power BI** tool was used to:
+
+- **Clean and process the data.**
+- **Create relationships between tables.**
+- **Build the interactive dashboard.**
+
+### 📌 **The Dashboard Answers:**
+
+- Total expenses incurred by candidates for the position of governor.
+- The five parties with the highest expenditure amounts.
+- The five expense sources with the highest amounts.
+- The candidates with the highest expense amounts.
+
+Additionally, it is possible to filter specific information by **Round**, **State**, and **Party**.
+
+---
+
+### 📊 **Link to the Dashboard**
+
+:bar_chart: Access the interactive dashboard by clicking the link below:
+
+[**Access the Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiZjk0NjBiNTQtOTA4NS00OTM0LTllZDktYTQyMGQxNGRhMTBjIiwidCI6IjA3M2ZmOGM0LWExZDEtNDNiYi1iODNmLWQyNTQ0YmMzODZiMCIsImMiOjh9)
+
+---
+
+## 🖼️ **Dashboard Preview**
+
+<p align="center">
+  <img src="dashboard.JPG" alt="Dashboard Preview" width="70%">
+</p>
